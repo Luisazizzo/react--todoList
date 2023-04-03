@@ -1,0 +1,32 @@
+.Todo {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+}
+.Todo .pallino {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 1px solid #8693bc;
+  cursor: pointer;
+}
+.Todo .title {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.Todo .delete {
+  cursor: pointer;
+  font-size: 16px;
+}
+.completed {
+  background-color: #af7feb;
+}
+.decoration {
+  text-decoration: line-through;
+}
+.trash {
+  font-size: 20px;
+  cursor: pointer;
+}
